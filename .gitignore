@@ -1,0 +1,24 @@
+# Local trade history and environments
+data/
+*.db
+env/
+.venv/
+venv/
+
+# Your own tradebook exports (only the made-up sample is committed)
+tradebook-*.csv
+*.xlsx
+*.xls
+!sample/*.csv
+
+# Secrets (future Kite Connect keys etc.)
+.env
+.streamlit/secrets.toml
+*.pem
+
+# Python / tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
